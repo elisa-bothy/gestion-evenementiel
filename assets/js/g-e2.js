@@ -8,7 +8,7 @@ function fonctionResponse(){
 }
 
 function fonctionResponse2(){
-    if(this.value.includes("Bonjour")){
+    if(this.value ==="Bonjour"){
         input.classList.remove("RED");
         input.classList.add("GREEN");
     }
