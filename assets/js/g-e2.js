@@ -1,10 +1,9 @@
 const input = document.querySelector("input");
 input.addEventListener("keyup", fonctionResponse);
 input.addEventListener("keyup", fonctionResponse2);
-const div = document.createElement("div");
-document.body.insertBefore(div, document.querySelector("script"));
 
 function fonctionResponse(){
+    const div = document.querySelector("div");
     div.innerHTML = "Voici ce que vous avez saisi : <br>" + this.value;
 }
 
