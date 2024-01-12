@@ -9,11 +9,9 @@ function fonctionResponse(){
 
 function fonctionResponse2(){
     if(this.value ==="Bonjour"){
-        input.classList.remove("RED");
-        input.classList.add("GREEN");
+        input.classList.toggle("GREEN");
     }
     else{
-        input.classList.remove("GREEN");
-        input.classList.add("RED");
+        input.classList.toggle("RED");
     }
 }
