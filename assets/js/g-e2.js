@@ -4,5 +4,5 @@ const div = document.createElement("div");
 document.body.insertBefore(div, document.querySelector("script"));
 
 function fonctionResponse(){
-    div.textContent = this.value;
+    div.innerHTML = "Voici ce que vous avez saisi : <br>" + this.value;
 }
