@@ -1,6 +1,8 @@
 const input = document.querySelector("input");
 input.addEventListener("keyup", fonctionResponse);
+const div = document.createElement("div");
+document.body.insertBefore(div, document.querySelector("script"));
 
 function fonctionResponse(){
-    console.log(this.value);
+    div.textContent = this.value;
 }
